@@ -1,0 +1,141 @@
+{
+    "departments": [
+        {
+            "id": 1000,
+            "name": "Bakery",
+            "categories": [
+                "Breads",
+                "Desserts",
+                "Pastries"
+            ]
+        },
+        {
+            "id": 2000,
+            "name": "Beverages",
+            "categories": [
+                "Juice",
+                "Soda",
+                "Water"
+            ]
+        },
+        {
+            "id": 3000,
+            "name": "Dairy",
+            "categories": [
+                "Butters",
+                "Cheeses",
+                "Eggs",
+                "Milks"
+            ]
+        },
+        {
+            "id": 4000,
+            "name": "Deli",
+            "categories": [
+                "Meats",
+                "Cheeses"
+            ]
+        },
+        {
+            "id": 9000,
+            "name": "Frozen",
+            "categories": [
+                "Ice Cream",
+                "Pizza"
+            ]
+        },
+        {
+            "id": 5000,
+            "name": "Grocery",
+            "categories": [
+                "Baking",
+                "Breakfast",
+                "Condiments",
+                "Pasta's",
+                "Rices",
+                "Soups"
+            ]
+        },
+        {
+            "id": 6000,
+            "name": "Meat",
+            "categories": [
+                "Beef",
+                "Chicken",
+                "Pork"
+            ]
+        },
+        {
+            "id": 7000,
+            "name": "Produce",
+            "categories": [
+                "Fruits",
+                "Herbs",
+                "Vegetables"
+            ]
+        },
+        {
+            "id": 8000,
+            "name": "Seafood",
+            "categories": [
+                "Fish",
+                "Shellfish"
+            ]
+        }
+    ], 
+    "products": [
+        {"id": 1000000, "name": "French Baguette", "department": "Bakery", "category": "Breads", "price": 3.99},
+        {"id": 1000001, "name": "Garlic Bread", "department": "Bakery", "category": "Breads", "price": 3.19},
+        {"id": 1000002, "name": "Italian Bread", "department": "Bakery", "category": "Breads", "price": 2.19},
+
+        {"id": 1000300, "name": "Chocolate Chip Cookies", "department": "Bakery", "category": "Desserts", "price": 3.49},
+        {"id": 1000301, "name": "Pumpkin Pie", "department": "Bakery", "category": "Desserts", "price": 4.99},
+        {"id": 1000302, "name": "Wicked Whoopie Pie", "department": "Bakery", "category": "Desserts", "price": 1.99},
+
+        {"id": 1000600, "name": "Apple Danish", "department": "Bakery", "category": "Pastries", "price": 4.79},
+        {"id": 1000601, "name": "Boston Cream Donut", "department": "Bakery", "category": "Pastries", "price": 2.99},
+        {"id": 1000602, "name": "Cinnamon Rolls with White Icing", "department": "Bakery", "category": "Pastries", "price": 2.49},
+
+        {"id": 2000000, "name": "Apple Juice", "department": "Beverages", "category": "Juice", "price": 2.69},
+        {"id": 2000001, "name": "Cranberry Juice", "department": "Beverages", "category": "Juice", "price": 2.49},
+        {"id": 2000002, "name": "Pinanpple Juice", "department": "Beverages", "category": "Juice", "price": 3.69},
+
+        {"id": 2000300, "name": "Pepsi", "department": "Beverages", "category": "Soda", "price": 2.39},
+        {"id": 2000301, "name": "Ginger Ale", "department": "Beverages", "category": "Soda", "price": 1.99},
+        {"id": 2000302, "name": "Sprite", "department": "Beverages", "category": "Soda", "price": 1.79},
+
+        {"id": 2000600, "name": "1 Gallon Water", "department": "Beverages", "category": "Water", "price": 1.79},
+        {"id": 2000601, "name": "24 Pack Water", "department": "Beverages", "category": "Water", "price": 4.69},
+        {"id": 2000602, "name": "4 Gallon Water", "department": "Beverages", "category": "Water", "price": 5.19},
+
+        {"id": 3000000, "name": "I Can't Believe It's Not Butter", "department": "Dairy", "category": "Butters", "price": 3.49},
+        {"id": 3000001, "name": "Salted Butter", "department": "Dairy", "category": "Butters", "price": 2.99},
+        {"id": 3000002, "name": "Unsalted Butter", "department": "Dairy", "category": "Butters", "price": 2.99},
+
+        {"id": 3000300, "name": "Monterey Jack Cheese", "department": "Dairy", "category": "Cheeses", "price": 2.29},
+        {"id": 3000301, "name": "Extra Sharp Chedder Cheese", "department": "Dairy", "category": "Cheeses", "price": 2.29},
+        {"id": 3000302, "name": "Mozzarella Cheese", "department": "Dairy", "category": "Cheeses", "price": 3.49},
+
+        {"id": 3000600, "name": "Ostrich Egg", "department": "Dairy", "category": "Eggs", "price": 9.99},
+        {"id": 3000601, "name": "Large Brown Eggs", "department": "Dairy", "category": "Eggs", "price": 1.99},
+        {"id": 3000602, "name": "Large White Eggs", "department": "Dairy", "category": "Eggs", "price": 1.89},
+        
+        {"id": 3000900, "name": "Chocolate Milk", "department": "Dairy", "category": "Milks", "price": 3.99},
+        {"id": 3000901, "name": "Half & Half", "department": "Dairy", "category": "Milks", "price": 2.39},
+        {"id": 3000902, "name": "Heavy Cream", "department": "Dairy", "category": "Milks", "price": 4.49},
+        {"id": 3000903, "name": "Whole Milk", "department": "Dairy", "category": "Milks", "price": 3.99}
+    ],
+    "temp": [
+        {"id": 1000000, "name": "Temp", "department": "Temp", "category": "Temp", "price": 3.99},
+        {"id": 1000001, "name": "Temp", "department": "Temp", "category": "Temp", "price": 3.19},
+        {"id": 1000002, "name": "Temp", "department": "Temp", "category": "Temp", "price": 2.19},
+
+        {"id": 1000300, "name": "Temp", "department": "Temp", "category": "Temp", "price": 3.49},
+        {"id": 1000301, "name": "Temp", "department": "Temp", "category": "Temp", "price": 4.99},
+        {"id": 1000302, "name": "Temp", "department": "Temp", "category": "Temp", "price": 1.99},
+
+        {"id": 1000600, "name": "Temp", "department": "Temp", "category": "Temp", "price": 4.79},
+        {"id": 1000601, "name": "Temp", "department": "Temp", "category": "Temp", "price": 2.99},
+        {"id": 1000602, "name": "Temp", "department": "Temp", "category": "Temp", "price": 2.49}
+    ]
+}
